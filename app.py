@@ -33,23 +33,3 @@ if st.button('Recommend'):
 
 theme = st.radio("Choose theme", options=["Light", "Dark"])
 
-if theme == "Dark":
-    st.markdown(
-        """
-        <style>
-            .css-18e3th9 {
-                background-color: #0E1117;
-                color: #FFFFFF;
-            }
-        </style>
-        """, unsafe_allow_html=True)
-else:
-    st.markdown(
-        """
-        <style>
-            .css-18e3th9 {
-                background-color: #FFFFFF;
-                color: #000000;
-            }
-        </style>
-        """, unsafe_allow_html=True)
